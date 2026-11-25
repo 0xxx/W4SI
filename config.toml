@@ -1,5 +1,5 @@
-base_url = "http://127.0.0.1:1111"
-title = "My site"
+base_url = "https://w4si.com"
+title = "Word/World for Self Improvement"
 description = "Notes, projects, and ideas."
 default_language = "en"
 theme = "ametrine"
