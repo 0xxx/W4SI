@@ -1,0 +1,54 @@
+base_url = "http://127.0.0.1:1111"
+title = "My site"
+description = "Notes, projects, and ideas."
+default_language = "en"
+theme = "ametrine"
+compile_sass = true
+minify_html = true
+build_search_index = true
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+taxonomies = [{ name = "tags", feed = true }]
+
+[markdown]
+smart_punctuation = true
+external_links_class = "external"
+github_alerts = true
+
+[markdown.highlighting]
+style = "class"
+light_theme = "monokai-pro-light"
+dark_theme = "monokai-pro"
+extra_themes = [
+  "themes/ametrine/giallo/themes/monokai-pro-light.json",
+  "themes/ametrine/giallo/themes/monokai-pro.json",
+]
+
+[search]
+index_format = "elasticlunr_json"
+
+[extra]
+accent_color = "blue"
+show_reading_time = true
+copy_button = true
+date_format = "dd MMMM y"
+date_format_long = "dd MMMM yyyy, HH:mm (z)"
+date_locale = "en_US"
+timezone = "UTC"
+
+[extra.meta]
+favicon = false
+apple_touch_icon = false
+card = false
+
+[extra.nav]
+icon = false
+links = [
+  { url = "@/blog/_index.md", name = "Blog", icon = "newspaper" },
+  { url = "@/about.md", name = "About", icon = "info" },
+]
+
+[extra.footer]
+copyright = true
+show_powered_by = true
+show_timestamp = false
