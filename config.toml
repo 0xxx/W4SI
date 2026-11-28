@@ -1,5 +1,5 @@
 base_url = "https://w4si.com"
-title = "Word/World for Self Improvement"
+title = "Word / World for Super Intelligence / Self-Improvement"
 description = "Notes, projects, and ideas."
 default_language = "en"
 theme = "ametrine"
@@ -49,6 +49,6 @@ links = [
 ]
 
 [extra.footer]
-copyright = true
-show_powered_by = true
+copyright = "© 0xxx, 2026-$YEAR"
+# show_powered_by = true
 show_timestamp = false
